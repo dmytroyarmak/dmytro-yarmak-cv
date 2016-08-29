@@ -40,9 +40,12 @@ html {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     padding: 5px 20px;
+    margin: 0;
+}
+
+.lncv-section-subtitle-bordered {
     border: 1px solid #D6E5E3;
     border-width: 1px 0;
-    margin: 0;
 }
 
 .lncv-section-title  + .lncv-section-subtitle {
@@ -77,4 +80,54 @@ html {
     color: #1434A0;
     font-weight: bold;
     font-size: 13px;
+}
+
+.lncv-project-row {
+    display: flex;
+    padding: 5px 0;
+}
+
+.lncv-project-row + .lncv-project-row {
+    border-top: 1px solid #eee;
+}
+
+.lncv-project-row-label {
+    width: 170px;
+    text-align: right;
+    margin: 0;
+    padding-right: 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    color: #8DA9C4;
+}
+
+.lncv-project-row-label:after {
+    content: ":";
+}
+
+.lncv-list {
+    margin: 0;
+    padding-left: 15px;
+}
+
+.lncv-paragraph {
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.lncv-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.lncv-table td,
+.lncv-table th {
+    border: 1px solid #8DA9C4;
+    padding: 5px;
+}
+
+.chcm-table-notice {
+    color: #999;
+    font-size: 10px;
 }
