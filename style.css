@@ -1,0 +1,80 @@
+html {
+    color: #13315C;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.lncv-company-logo {
+    width: 163px;
+    height: 79px;
+}
+
+.lncv-name {
+    color: #0B2545;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+.lncv-position {
+    color: #1434A0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.lncv-section-title {
+    color: #0B2545;
+    padding: 5px 20px;
+    border: 1px solid #8DA9C4;
+    border-width: 1px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0;
+}
+
+.lncv-section-subtitle {
+    color: #1434A0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 5px 20px;
+    border: 1px solid #D6E5E3;
+    border-width: 1px 0;
+    margin: 0;
+}
+
+.lncv-section-title  + .lncv-section-subtitle {
+    border-top-width: 0;
+}
+
+.lncv-notice-text {
+    display: inline-block;
+    color: #999;
+    font-weight: normal;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+.lncv-row {
+    display: flex;
+    padding: 0 20px;
+}
+
+.lncv-column {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.lncv-list-lable {
+    color: #0B2545;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.lncv-text-primary {
+    color: #1434A0;
+    font-weight: bold;
+    font-size: 13px;
+}
